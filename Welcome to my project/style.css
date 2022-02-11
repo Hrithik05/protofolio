@@ -1,0 +1,372 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+#header{
+	background-image: url('img/1.jpg');
+background-repeat: no-repeat;
+height: 100vh;
+background-size: 45% 80%;
+background-position: right;
+/*margin: 0px 20px;*/
+}
+
+.container{
+	margin: 0px 100px;
+}
+#logo{
+	height: 100px;
+	width: 150px;
+}
+
+.header-text{
+	margin: 50px 0px;
+	max-width: 420px;
+}
+ 
+h1{
+	color: blue;
+	font-size: 50px;
+	font-family: 'Big Shoulders Stencil Display', cursive;
+}
+.header-text p{
+	padding: 10px 0px;
+	font-weight: bold;
+	font-size: 20px;
+	
+	
+}
+.comman-btn{
+	padding: 10px 20px;
+	outline: none;
+	background: linear-gradient(to left, rgba(177, 3, 3, 0.774), rgb(122, 11, 122));
+	border-radius: 10px;
+	color: goldenrod;
+	border: none;
+	font-size: 15px;
+	margin-top: 20px;
+	/*margin: 15px 0px;*/
+
+}
+.comman-btn:hover{
+	background: linear-gradient(to right, rgba(78, 53, 24, 0.63), rgb(21, 64, 114));
+color: violet;
+border: 1px solid hotpink;
+transition: 0.3s;
+
+}
+.line{
+	line-height: 20px;
+	display: inline-block;
+}
+
+.line-1{
+	height: 12px;
+	width: 12px;
+	background: linear-gradient(to left, rgb(29, 27, 27), rgb(61, 2, 104));
+       
+}
+.line-2{
+	height: 1px;
+	width: 80px;
+	background: linear-gradient(to left, rgb(72, 180, 39), rgb(197, 60, 174));
+       
+}
+.line-3{
+	height: 1px;
+	width: 120px;
+	background: linear-gradient(to left, rgb(185, 6, 6), rgba(73, 52, 5, 0.664));
+       
+}
+
+
+
+
+
+#menu{
+	width: 50px;
+	position: fixed;
+	top: 8px;
+	right: 50px;
+	cursor: pointer;
+	z-index: 4;
+	filter: brightness(100%);
+	filter: opacity(30%);
+}
+#sidebar{
+	
+	width: 300px;
+	height: 100vh;
+	position: fixed;
+	padding: 40px;
+	top: 0;
+	right: -300px;
+	background: linear-gradient(rgb(180, 156, 22), rgb(13, 1, 145), rgba(133, 3, 3, 0.973));	
+transition: 0.5s;
+}
+#sidebar li{
+	list-style: none;
+}
+#sidebar li a{
+	text-decoration: none;
+	color: silver;
+	padding: 20px 40px;
+	display: block;
+	/*background-color: red;*/
+	margin: 20px 30px;
+	font-weight: bold;
+}
+#sidebar li a:hover{
+	color: white;
+	transition: 0.3s;
+}
+
+
+#about{
+	padding: 100px 0px;
+}
+.about-row{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.about-left-col{
+	flex-basis: 50%;
+}
+.about-left-col img{
+	
+	width: 480px;
+	margin: 0px 90px;
+}
+
+.about-right-col{
+	flex-basis: 50%;
+	text-align: right;
+	max-width: 450px;
+	margin-right: 100px;
+}
+
+.about-right-col p{
+	font-weight: bold;
+	font-size: 20px;
+	padding: 10px 0px;
+}
+.about-right-col h2{
+	font-size: 30px;
+	font-style: italic;
+}
+
+#features{
+	padding: 80px 0px;
+}
+
+.features-container{
+	margin: 0px 85px;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	flex-wrap: wrap;
+	
+}
+.features-box{
+	flex-basis: 20%;
+	align-items: center;
+}
+
+.features-box img{
+	width: 100%;
+}
+.features-box h1{
+	margin: 20px 0px;
+	font-size: 30px;
+	font-family: 'Big Shoulders Stencil Display', cursive;
+	color: blue;
+
+}
+.features-box p{
+	font-weight: bold;
+	font-size: 15px;
+}
+#middle-btn{
+	text-align: center;
+}
+
+
+
+#courses{
+	padding: 100px 0px;
+}
+.courses-row{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.courses-left-col{
+	flex-basis: 50%;
+}
+.courses-left-col img{
+	
+	width: 480px;
+	margin: 0px 90px;
+}
+
+.courses-right-col{
+	flex-basis: 50%;
+	text-align: right;
+	max-width: 450px;
+	margin-right: 100px;
+}
+
+.courses-right-col p{
+	font-weight: bold;
+	font-size: 20px;
+	padding: 10px 0px;
+}
+.courses-right-col h2{
+	font-size: 30px;
+	font-style: italic;
+}
+
+#contact{
+	padding: 100px 0px;
+}
+
+.contact-row{
+	display: flex;
+text-align: center;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.contact-left-col, .contact-right-col{
+	flex-basis: 50%;
+}
+
+.contact-left-col img{
+	width: 450px;
+	margin: 0px 85px;
+}
+.contact-right-col{
+	text-align: center;
+}
+.contact-right-col h1{
+margin: 20px 0px;
+	font-size: 50px;
+	font-family: 'Big Shoulders Stencil Display', cursive;
+	color: blue;
+}
+form{
+	margin-top: 20px;
+}
+form input{
+	width: 60%;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+textarea{
+	width: 60%;
+	padding: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+
+.contact-right-col:hover{
+	background: linear-gradient(to left, rgb(49, 49, 173), rgb(1, 48, 1));
+}
+
+.contact-right-col textarea:hover{
+	background: transparent;
+	background: black;
+	color: red;
+}
+
+.contact-right-col form input:hover{
+	background: transparent;
+	background: black;
+	color: red;
+}
+
+
+#footer{
+	padding: 100px 0px;
+}
+.footer-row{
+	margin: 0px 85px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.footer-left-col, .footer-right-col{
+	flex-basis: 50%;
+}
+
+
+.footer-link{
+	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	
+}
+.footer-link h2{
+color: blue;
+font-family: 'Big Shoulders Stencil Display', cursive;
+margin-bottom: 10px;
+}
+
+.footer-info{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	
+}
+.footer-copyright,.footer-logo{
+flex-basis: 40%;
+}
+.footer-copyright{
+	text-align: right;
+}
+#xyz{
+	color: black;
+background: linear-gradient(to left, rgb(6, 149, 206), rgb(121, 80, 4));
+height: 100px;
+}
+#xyz h2{
+	
+	font-size: 40px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+@media only screen and (max-width:780px){
+	#header{
+		background: none;
+	}
+
+	.about-left-col{
+		flex-basis: 100%;
+	}
+	.about-left-col img{
+		width: 100%;
+	}
+}*/
